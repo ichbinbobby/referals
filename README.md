@@ -54,6 +54,9 @@ yarn build
 
 # bun
 bun run build
+
+# To build your app with static site generation, run the following command
+npx nuxi generate
 ```
 
 Locally preview production build:
@@ -89,3 +92,5 @@ cd referals
 
 put -r .
 ```
+
+[Website](http://referals.ichbinbobby.de/)
