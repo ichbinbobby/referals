@@ -4,6 +4,15 @@
       <v-app-bar class="px-3">
         <v-app-bar-title> referals.ichbinbobby.de </v-app-bar-title>
 
+        <v-text-field
+          v-model="search"
+          density="comfortable"
+          placeholder="Search"
+          prepend-inner-icon="mdi-magnify"
+          clearable
+          hide-details
+        />
+
         <v-spacer />
 
         <v-btn
@@ -24,7 +33,11 @@
 </template>
 
 <script setup>
+const search = ref("");
 const theme = ref("light");
+
+// Provide the search state to child components
+provide("search", search);
 
 function onClick() {
   theme.value = theme.value === "light" ? "dark" : "light";
