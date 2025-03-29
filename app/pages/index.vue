@@ -10,7 +10,6 @@
           sm="6"
           md="4"
           lg="3"
-          class="mx-4"
         >
           <ReferalCard
             :key="index"

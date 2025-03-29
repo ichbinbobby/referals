@@ -1,11 +1,5 @@
 <template>
-  <v-card
-    :color="color"
-    :height="height"
-    width="320"
-    elevation="1"
-    @click="open(link)"
-  >
+  <v-card :color="color" :height="height" elevation="1" @click="open(link)">
     <v-img :width="imgWidth" :src="img" class="ml-4 mt-4 referal-card-img" />
 
     <v-card-title> {{ title }} </v-card-title>
