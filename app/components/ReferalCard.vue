@@ -1,6 +1,12 @@
 <template>
   <v-card :color="color" :height="height" elevation="1" @click="open(link)">
-    <v-img :width="imgWidth" :src="img" class="ml-4 mt-4 referal-card-img" />
+    <v-img :width="imgWidth" :src="img" class="ml-4 mt-4 referal-card-img">
+      <template #placeholder>
+        <v-row align="center" class="fill-height ma-0" justify="center">
+          <v-progress-circular color="grey-lighten-5" indeterminate />
+        </v-row>
+      </template>
+    </v-img>
 
     <v-card-title> {{ title }} </v-card-title>
 
@@ -39,7 +45,7 @@ function open(url: string) {
   word-wrap: break-word;
 }
 
-.referal-card-img > .v-img__img {
+.referal-card-img {
   border-radius: 20%;
   background-color: white;
 }
