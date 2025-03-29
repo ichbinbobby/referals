@@ -2,6 +2,8 @@
   <v-responsive>
     <v-app :theme="theme">
       <v-app-bar class="px-3">
+        <v-app-bar-title> referals.ichbinbobby.de </v-app-bar-title>
+
         <v-spacer />
 
         <v-btn

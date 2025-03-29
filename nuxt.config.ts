@@ -17,8 +17,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content:
-            "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/155.png",
+          content: "https://cdn.vuetifyjs.com/images/parallax/material2.jpg",
         },
         {
           property: "og:title",
