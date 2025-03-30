@@ -15,11 +15,11 @@
             >
               <ReferalCard
                 :key="index"
+                :category="item.raw.category"
                 :link="item.raw.link"
                 :img="item.raw.img"
                 :text="item.raw.text"
                 :title="item.raw.title"
-                :type="item.raw.type"
               />
             </v-col>
           </v-row>

@@ -17,8 +17,8 @@
         </v-img>
       </v-col>
 
-      <v-col class="ml-4 mt-4">
-        <v-chip v-if="type" class="text-capitalize">{{ type }}</v-chip>
+      <v-col class="mr-4 mt-4 text-right">
+        <v-chip v-if="category" class="text-capitalize">{{ category }}</v-chip>
       </v-col>
     </v-row>
 
@@ -32,6 +32,7 @@
 
 <script setup lang="ts">
 const {
+  category = "",
   color = "",
   height = 320,
   img = "",
@@ -39,8 +40,8 @@ const {
   link = "",
   text = "",
   title = "",
-  type = "",
 } = defineProps({
+  category: String,
   color: String,
   height: Number,
   img: String,
@@ -48,7 +49,6 @@ const {
   link: String,
   text: String,
   title: String,
-  type: String,
 });
 
 function open(url: string) {
