@@ -19,6 +19,7 @@
                 :img="item.raw.img"
                 :text="item.raw.text"
                 :title="item.raw.title"
+                :type="item.raw.type"
               />
             </v-col>
           </v-row>

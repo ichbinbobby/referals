@@ -1,12 +1,26 @@
 <template>
   <v-card :color="color" :height="height" elevation="1" @click="open(link)">
-    <v-img :width="imgWidth" :src="img" class="ml-4 mt-4 referal-card-img">
-      <template #placeholder>
-        <v-row align="center" class="fill-height ma-0" justify="center">
-          <v-progress-circular color="grey-lighten-5" indeterminate />
-        </v-row>
-      </template>
-    </v-img>
+    <v-row no-gutters>
+      <v-col>
+        <v-img
+          :min-height="128"
+          :min-width="128"
+          :width="imgWidth"
+          :src="img"
+          class="ml-4 mt-4 referal-card-img"
+        >
+          <template #placeholder>
+            <v-row align="center" class="fill-height ma-0" justify="center">
+              <v-progress-circular color="grey-lighten-5" indeterminate />
+            </v-row>
+          </template>
+        </v-img>
+      </v-col>
+
+      <v-col class="ml-4 mt-4">
+        <v-chip v-if="type" class="text-capitalize">{{ type }}</v-chip>
+      </v-col>
+    </v-row>
 
     <v-card-title> {{ title }} </v-card-title>
 
@@ -25,6 +39,7 @@ const {
   link = "",
   text = "",
   title = "",
+  type = "",
 } = defineProps({
   color: String,
   height: Number,
@@ -33,6 +48,7 @@ const {
   link: String,
   text: String,
   title: String,
+  type: String,
 });
 
 function open(url: string) {
