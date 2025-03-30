@@ -24,6 +24,8 @@
 
     <v-card-title> {{ title }} </v-card-title>
 
+    <v-card-subtitle>{{ subtitle }}</v-card-subtitle>
+
     <v-card-text class="referal-card-text-wrap">
       {{ text }}
     </v-card-text>
@@ -34,10 +36,11 @@
 const {
   category = "",
   color = "",
-  height = 320,
+  height = 360,
   img = "",
   imgWidth = 128,
   link = "",
+  subtitle = "",
   text = "",
   title = "",
 } = defineProps({
@@ -47,6 +50,7 @@ const {
   img: String,
   imgWidth: Number,
   link: String,
+  subtitle: String,
   text: String,
   title: String,
 });

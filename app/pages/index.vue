@@ -18,6 +18,7 @@
                 :category="item.raw.category"
                 :link="item.raw.link"
                 :img="item.raw.img"
+                :subtitle="item.raw.subtitle"
                 :text="item.raw.text"
                 :title="item.raw.title"
               />
