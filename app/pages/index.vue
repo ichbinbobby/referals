@@ -33,8 +33,8 @@
 <script setup lang="ts">
 import referals from "@/referals";
 
-// Inject the search state from the layout and explicitly type it as a string or undefined
-const search = inject<string | undefined>("search");
+// Access the shared state from default.vue
+const search = useState<string>("search");
 </script>
 
 <style></style>

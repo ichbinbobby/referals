@@ -29,11 +29,9 @@
 </template>
 
 <script setup lang="ts">
-const search = ref("");
+// composable for managing shared state across components
+const search = useState<string>("search", () => "");
 const theme = ref("light");
-
-// Provide the search state to child components
-provide("search", search);
 
 function toggleTheme() {
   theme.value = theme.value === "light" ? "dark" : "light";
