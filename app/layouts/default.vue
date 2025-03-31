@@ -28,7 +28,7 @@
   </v-responsive>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const search = ref("");
 const theme = ref("light");
 
