@@ -40,7 +40,7 @@ export default defineNuxtConfig({
           content: "https://cdn.vuetifyjs.com/images/parallax/material2.jpg",
         },
         { name: "theme-color", content: "#4CAF50" },
-        { name: "apple-mobile-web-app-capable", content: "yes" },
+        { name: "mobile-web-app-capable", content: "yes" },
         {
           name: "apple-mobile-web-app-status-bar-style",
           content: "black-translucent",
