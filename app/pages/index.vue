@@ -19,6 +19,7 @@
                 :link="item.raw.link"
                 :img="item.raw.img"
                 :subtitle="item.raw.subtitle"
+                :sustainable="item.raw.sustainable"
                 :text="item.raw.text"
                 :title="item.raw.title"
               />

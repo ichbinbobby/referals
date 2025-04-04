@@ -2,13 +2,7 @@
   <v-card :color="color" :height="height" elevation="1" @click="open(link)">
     <v-row no-gutters>
       <v-col>
-        <v-img
-          :min-height="128"
-          :min-width="128"
-          :width="imgWidth"
-          :src="img"
-          class="ml-4 mt-4 referal-card-img"
-        >
+        <v-img :min-height="128" :min-width="128" :width="imgWidth" :src="img" class="ml-4 mt-4 referal-card-img">
           <template #placeholder>
             <v-row align="center" class="fill-height ma-0" justify="center">
               <v-progress-circular color="grey-lighten-5" indeterminate />
@@ -18,7 +12,21 @@
       </v-col>
 
       <v-col class="mr-4 mt-4 text-right">
-        <v-chip v-if="category" class="text-capitalize">{{ category }}</v-chip>
+        <v-row no-gutters>
+          <v-col>
+            <v-chip v-if="category" class="text-capitalize">{{ category }}</v-chip>
+          </v-col>
+        </v-row>
+        
+        <v-row no-gutters>
+          <v-col>
+            <v-tooltip v-if="sustainable" location="top" text="Nachhaltig">
+              <template #activator="{ props }">
+                <v-icon v-bind="props" class="mt-4" color="success" icon="mdi-sprout" />
+              </template>
+            </v-tooltip>
+          </v-col>
+        </v-row>
       </v-col>
     </v-row>
 
@@ -41,6 +49,7 @@ const {
   imgWidth = 128,
   link = "",
   subtitle = "",
+  sustainable = false,
   text = "",
   title = "",
 } = defineProps({
@@ -51,6 +60,7 @@ const {
   imgWidth: Number,
   link: String,
   subtitle: String,
+  sustainable: Boolean,
   text: String,
   title: String,
 });
