@@ -1,4 +1,6 @@
-const referals = [
+import type { Referal } from "@/types/referal.d.ts";
+
+const referals: Referal[] = [
   {
     category: "finance",
     img: "https://play-lh.googleusercontent.com/GQ_CWKv7DFM1i2qGJhD2n_2-Jizet83RXBFaw82LyEDTPJlXePRJODJUh1Q8hka-b0Y",
