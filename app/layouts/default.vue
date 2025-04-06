@@ -1,6 +1,6 @@
 <template>
   <v-responsive>
-    <v-app :theme="theme">
+    <v-app>
       <v-app-bar class="px-3">
         <v-app-bar-title> referals.ichbinbobby.de </v-app-bar-title>
 
@@ -16,7 +16,7 @@
         <v-spacer />
 
         <v-btn
-          :icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+          :icon="isDark ? 'mdi-weather-night' : 'mdi-weather-sunny'"
           @click="toggleTheme"
         />
       </v-app-bar>
@@ -29,11 +29,27 @@
 </template>
 
 <script setup lang="ts">
-// composable for managing shared state across components
-const search = useState<string>("search", () => "");
-const theme = ref("light");
+import { useTheme } from "vuetify"; // Vuetify's theme composable
 
+// Shared search state
+const search = useState<string>("search", () => "");
+
+// Access Vuetify's theme system
+const theme = useTheme();
+
+// Initialize dark mode state from localStorage or default to Vuetify's current theme
+const isDark = useState<boolean>("isDark", () => {
+  const savedTheme = localStorage.getItem("isDark");
+  return savedTheme !== null ? savedTheme === "true" : theme.global.current.value.dark;
+});
+
+// Synchronize Vuetify's theme system with the dark mode state
+theme.global.name.value = isDark.value ? "dark" : "light";
+
+// Toggle the theme and persist it in localStorage
 function toggleTheme() {
-  theme.value = theme.value === "light" ? "dark" : "light";
+  isDark.value = !isDark.value;
+  theme.global.name.value = isDark.value ? "dark" : "light"; // Update Vuetify's theme system
+  localStorage.setItem("isDark", isDark.value.toString()); // Persist theme in localStorage
 }
 </script>
