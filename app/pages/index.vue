@@ -1,5 +1,5 @@
 <template>
-  <v-data-iterator :items="referals" :items-per-page="12" :search="search">
+  <v-data-iterator :items="referals" :items-per-page="-1" :search="search">
     <template #default="{ items }">
       <v-layout>
         <!-- The class fill-height applies height: 100% to an element. When applied to v-container it will also set align-items: center -->
