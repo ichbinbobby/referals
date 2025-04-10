@@ -112,7 +112,7 @@ const referals: Referal[] = [
   {
     category: "learning",
     img: "https://avatars.githubusercontent.com/u/5387632?s=280&v=4",
-    link: "www.codewars.com/r/HyzOyg",
+    link: "https://www.codewars.com/r/HyzOyg",
     subtitle: "Code Challenges",
     sustainable: false,
     text: "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential.",
