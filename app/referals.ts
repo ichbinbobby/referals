@@ -109,6 +109,15 @@ const referals: Referal[] = [
     text: "Mit Omio kannst du Tickets für deine nächste Reise buchen. Melde dich mit meinem Empfehlungs-Link an und wir erhalten beide einen Rabatt von 10 € auf unsere nächste Buchung!",
     title: "Omio",
   },
+  {
+    category: "learning",
+    img: "https://avatars.githubusercontent.com/u/5387632?s=280&v=4",
+    link: "www.codewars.com/r/HyzOyg",
+    subtitle: "Code Challenges",
+    sustainable: false,
+    text: "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential.",
+    title: "Codewars",
+  },
 ];
 
 export default referals;
