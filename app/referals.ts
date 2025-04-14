@@ -65,15 +65,6 @@ const referals: Referal[] = [
     title: "Pokemon GO",
   },
   {
-    category: "provider",
-    img: "https://play-lh.googleusercontent.com/sKmpsdhvuo6N4zQKzIsUbuwzMDsqKq2P7FW32rDk7NjFXoAEUVTFybnvuPoGTpDTBx0",
-    link: "https://www.netzclub.net/einladung-folgen?ic=7W4-VZL-NEG",
-    subtitle: "Kostenlose Prepaid-SIM",
-    sustainable: false,
-    text: "netzclub schenkt dir pro Monat 200mb Datenvolumen und zusätzlich bekommst du mit dem Einladungscode 7W4-VZL-NEG einmalig 10GB Datenvolumen zusätzlich.",
-    title: "netzclub",
-  },
-  {
     category: "learning",
     img: "https://play-lh.googleusercontent.com/Egp-GTOp0CMBeS6eRVEQO6bLYdfklzGxCYSkr7aZynbzr2AJSZpF9s05_6ppj8vwq7I",
     link: "https://app.busuu.com/u7oevWFftUXA5yeCA",
