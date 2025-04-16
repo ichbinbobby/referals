@@ -20,7 +20,7 @@
     "eslint": "^9.24.0",
     "nuxt": "^3.16.2",
     "vue": "latest",
-    "vuetify": "^3.8.1"
+    "vuetify": "^3.8.2"
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
