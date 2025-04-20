@@ -25,7 +25,7 @@ const referals: Referal[] = [
     link: "https://links.naturstrom.de/kvgu",
     subtitle: "Ökostrom",
     sustainable: true,
-    text: "Du und ich - lass uns gemeinsam Klima und Umwelt schützen! Mit echter Öko-Energie können wir jede Menge CO2 sparen und die Energiewende ordentlich voranbringen.",
+    text: "Lass uns gemeinsam Klima und Umwelt schützen! Mit echter Öko-Energie können wir jede Menge CO2 sparen und die Energiewende ordentlich voranbringen.",
     title: "Naturstrom",
   },
   {
@@ -43,7 +43,7 @@ const referals: Referal[] = [
     link: "https://de.scalable.capital/einladung/br7kc2",
     subtitle: "Neo-Broker",
     sustainable: false,
-    text: "Starten Sie jetzt und definieren Sie Ihre finanzielle Zukunft neu: 2,5 % Zinsen p.a.*, Trading-Flatrate & Sparpläne ab 1 €.",
+    text: "Starten Sie jetzt und definieren Sie Ihre finanzielle Zukunft neu: 2,25 % Zinsen p.a.*, Trading-Flatrate & Sparpläne ab 1 €.",
     title: "Scalable Capital",
   },
   {
@@ -61,7 +61,7 @@ const referals: Referal[] = [
     link: "https://pokemongolive.com/refer?code=VJ4Y927TK&source=INVITE_PAGE",
     subtitle: "Kostenloses Spiel für Smartphones",
     sustainable: false,
-    text: "Wenn du meinen Empfehlungscode VJ4Y927TK verwendest, um Pokémon GO beizutreten oder zurückzukommen, erhältst du einen Willkommensbonus, besondere Belohnungen und mehr.",
+    text: "Verwende meinen Empfehlungscode VJ4Y927TK, um Pokémon GO beizutreten oder zurückzukommen, erhältst du einen Willkommensbonus, besondere Belohnungen und mehr.",
     title: "Pokemon GO",
   },
   {
@@ -97,7 +97,7 @@ const referals: Referal[] = [
     link: "https://de.omio.com/refer-a-friend?ic=thanhn7k6f1r",
     subtitle: "Bahn, Bus, Flüge, Fähre",
     sustainable: false,
-    text: "Mit Omio kannst du Tickets für deine nächste Reise buchen. Melde dich mit meinem Empfehlungs-Link an und wir erhalten beide einen Rabatt von 10 € auf unsere nächste Buchung!",
+    text: "Mit Omio kannst du Tickets für deine nächste Reise buchen. Melde dich mit meinem Empfehlungs-Link an und erhalte einen Rabatt von 10 € auf unsere nächste Buchung!",
     title: "Omio",
   },
   {
