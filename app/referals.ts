@@ -61,7 +61,7 @@ const referals: Referal[] = [
     link: "https://pokemongolive.com/refer?code=VJ4Y927TK&source=INVITE_PAGE",
     subtitle: "Kostenloses Spiel für Smartphones",
     sustainable: false,
-    text: "Verwende meinen Empfehlungscode VJ4Y927TK, um Pokémon GO beizutreten oder zurückzukommen, erhältst du einen Willkommensbonus, besondere Belohnungen und mehr.",
+    text: "Verwende meinen Empfehlungscode VJ4Y927TK, um Pokémon GO beizutreten oder zurückzukommen. Du erhältst einen Willkommensbonus, besondere Belohnungen und mehr.",
     title: "Pokemon GO",
   },
   {
