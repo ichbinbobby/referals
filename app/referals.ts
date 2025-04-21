@@ -47,13 +47,13 @@ const referals: Referal[] = [
     title: "Scalable Capital",
   },
   {
-    category: "product",
-    img: "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1PA6795UKMFR9/5f9dd41acffb53b37be84b98a3998469.w4011.h3715.png",
-    link: "https://prz.io/KrOaq9rsY",
-    subtitle: "Zahnpflege",
-    sustainable: true,
-    text: "Effektive Mundpflege & modernes Design von happybrush. 20% auf deinen ersten Einkauf. Nachhaltige elektrische Schallzahnbürsten und Vegane Zahnpasta.",
-    title: "happybrush",
+    category: "poll",
+    img: "https://play-lh.googleusercontent.com/gkR1VdIYye2VQ_HXcp-1cy4NpNCO7HTcEk1u-_6BFLk5Y47w-QY_6OInsRoX0oVDKg",
+    link: "https://account.yougov.com/de-de/join?referral=wEfvYOohxH8uelKkFyqNWQ",
+    subtitle: "Umfrageplattform",
+    sustainable: false,
+    text: "Für jede Umfrage, an der Sie teilnehmen, erhalten Sie Punkte. Diese können Sie sammeln und dann in attraktive Prämien oder Bargeld einlösen.",
+    title: "YouGov",
   },
   {
     category: "game",
@@ -108,6 +108,15 @@ const referals: Referal[] = [
     sustainable: false,
     text: "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential.",
     title: "Codewars",
+  },
+  {
+    category: "product",
+    img: "https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/6/AmazonStores/A1PA6795UKMFR9/5f9dd41acffb53b37be84b98a3998469.w4011.h3715.png",
+    link: "https://prz.io/KrOaq9rsY",
+    subtitle: "Zahnpflege",
+    sustainable: true,
+    text: "Effektive Mundpflege & modernes Design von happybrush. 20% auf deinen ersten Einkauf. Nachhaltige elektrische Schallzahnbürsten und Vegane Zahnpasta.",
+    title: "happybrush",
   },
 ];
 
