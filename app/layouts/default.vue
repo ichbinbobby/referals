@@ -6,11 +6,13 @@
 
         <v-text-field
           v-model="search"
+          clearable
           density="comfortable"
+          hide-details
           placeholder="Search"
           prepend-inner-icon="mdi-magnify"
-          clearable
-          hide-details
+          rounded
+          variant="outlined"
         />
 
         <v-spacer />
