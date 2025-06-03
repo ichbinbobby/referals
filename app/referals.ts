@@ -57,7 +57,7 @@ const referals: Referal[] = [
   },
   {
     category: "game",
-    img: "https://play-lh.googleusercontent.com/bE4FJRKJO_FhT6IcHyo3bKMfLvREP9vkBME3BaMktz8kZJrkYnq4933Ml6avuNwW_No",
+    img: "https://play-lh.googleusercontent.com/HRsBRWHE1nPfbWZLATrGnrWrcjfOwNBK0P8e6qY8TGxobq7B5q7p-XZxR2hun6cnphA=w240-h480-rw",
     link: "https://pokemongolive.com/refer?code=VJ4Y927TK&source=INVITE_PAGE",
     subtitle: "Kostenloses Spiel für Smartphones",
     sustainable: false,
