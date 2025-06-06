@@ -118,6 +118,15 @@ const referals: Referal[] = [
     text: "Effektive Mundpflege & modernes Design von happybrush. 20% auf deinen ersten Einkauf. Nachhaltige elektrische Schallzahnbürsten und Vegane Zahnpasta.",
     title: "happybrush",
   },
+  {
+    category: "loyalty",
+    img: "https://play-lh.googleusercontent.com/kmxAt02yG8Hp-TzZHDoRGFtB70QFz7njpWQzQp8KANztd-DozlJipu8tprSn80Q8pw=w240-h480-rw",
+    link: "https://rewards.bing.com/welcome?rh=E28050D5&ref=rafsrchae",
+    subtitle: "Bonusprogramm",
+    sustainable: false,
+    text: "Sammeln Sie Punkte für Spenden oder Gutscheine für Einzelhandel, Gaming, Elektronik, Möbel, Haustierbedarf und mehr, indem Sie mit Microsoft suchen, shoppen und spielen.",
+    title: "Microsoft Rewards",
+  },
 ];
 
 export default referals;
