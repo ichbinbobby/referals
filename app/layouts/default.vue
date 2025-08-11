@@ -46,12 +46,12 @@ const isDark = useState<boolean>("isDark", () => {
 });
 
 // Synchronize Vuetify's theme system with the dark mode state
-theme.global.name.value = isDark.value ? "dark" : "light";
+theme.change(isDark.value ? "dark" : "light");
 
 // Toggle the theme and persist it in localStorage
 function toggleTheme() {
   isDark.value = !isDark.value;
-  theme.global.name.value = isDark.value ? "dark" : "light"; // Update Vuetify's theme system
+  theme.change(isDark.value ? "dark" : "light"); // Update Vuetify's theme system
   localStorage.setItem("isDark", isDark.value.toString()); // Persist theme in localStorage
 }
 </script>
