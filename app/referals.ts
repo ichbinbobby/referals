@@ -13,7 +13,7 @@ const referals: Referal[] = [
   {
     category: "finance",
     img: "https://play-lh.googleusercontent.com/lvioTO4ssiXrAYGmkA9Tt390Wxm2_1yqMFFn8Nc_dTP3E43K9Ol2poyHYG69ahzNDNc=w240-h480-rw",
-    link: "https://banking.umweltbank.de/kontoeroeffnung-umweltflexkonto.html?werberId=MTAwNjkzMw==",
+    link: "https://banking.umweltbank.de/antragsstrecken/kontoeroeffnung-umweltflexkonto.html?werberId=MTAwNjkzMw==",
     subtitle: "Nachhaltig Anlegen",
     sustainable: true,
     text: "Ob Festgeld, Tagesgeld oder Fonds - bei der UmweltBank macht Ihr Geld grün. Nachhaltige Produkte sind für uns kein Trend, sondern sind seit jeher unser Geschäftsmodell.",
