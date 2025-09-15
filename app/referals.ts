@@ -57,7 +57,7 @@ const referals: Referal[] = [
   },
   {
     category: "game",
-    img: "https://play-lh.googleusercontent.com/HRsBRWHE1nPfbWZLATrGnrWrcjfOwNBK0P8e6qY8TGxobq7B5q7p-XZxR2hun6cnphA=w240-h480-rw",
+    img: "https://play-lh.googleusercontent.com/cKbYQSRgvec6n2oMJLVRWqHS8BsH9AxBp-cFGrGqve3CpE4EmI3Ofej1RCUciQbqhebCfiDIomUQINqzIL4I7kk",
     link: "https://pokemongolive.com/refer?code=VJ4Y927TK&source=INVITE_PAGE",
     subtitle: "Kostenloses Spiel für Smartphones",
     sustainable: false,
@@ -120,7 +120,7 @@ const referals: Referal[] = [
   },
   {
     category: "loyalty",
-    img: "https://play-lh.googleusercontent.com/kmxAt02yG8Hp-TzZHDoRGFtB70QFz7njpWQzQp8KANztd-DozlJipu8tprSn80Q8pw=w240-h480-rw",
+    img: "https://play-lh.googleusercontent.com/S9zYMjxY8KU0ceT2pztrC9BTjujzvhGud3nteSJrQ15NjFBx_2RdjQc6_nibMhACbQ=w480-h960",
     link: "https://rewards.bing.com/welcome?rh=E28050D5&ref=rafsrchae",
     subtitle: "Bonusprogramm",
     sustainable: false,
