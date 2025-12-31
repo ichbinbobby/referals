@@ -127,6 +127,15 @@ const referals: Referal[] = [
     text: "Sammeln Sie Punkte für Spenden oder Gutscheine für Einzelhandel, Gaming, Elektronik, Möbel, Haustierbedarf und mehr, indem Sie mit Microsoft suchen, shoppen und spielen.",
     title: "Microsoft Rewards",
   },
+  {
+    category: "loyalty",
+    img: "https://play-lh.googleusercontent.com/WiQDNH4bhP5D8MbOcUu8NKpOISLMTI53XZ_CDF521SAimMeToHzlMK3OmrkeIf81QWE",
+    link: "https://www.payback.de/anmelden/freunde-werben?mgm-ref=a3199155-6a91-481e-be6c-d52b7b7d5be4&excid=mgm&incid=01_20378_000",
+    subtitle: "Bonusprogramm",
+    sustainable: false,
+    text: "PAYBACK ist ein kostenloses Bonusprogramm. Beim Einkaufen in Partner-Filialen oder beim Online-Shopping kannst du Punkte sammeln.",
+    title: "Payback",
+  },
 ];
 
 export default referals;
