@@ -43,7 +43,7 @@ const referals: Referal[] = [
     link: "https://de.scalable.capital/einladung/br7kc2",
     subtitle: "Neo-Broker",
     sustainable: false,
-    text: "Starten Sie jetzt und definieren Sie Ihre finanzielle Zukunft neu: 2,25 % Zinsen p.a.*, Trading-Flatrate & Sparpläne ab 1 €.",
+    text: "Starten Sie jetzt und definieren Sie Ihre finanzielle Zukunft neu: 2 % Zinsen p.a.*, Trading-Flatrate & Sparpläne ab 1 €.",
     title: "Scalable Capital",
   },
   {

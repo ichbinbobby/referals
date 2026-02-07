@@ -16,23 +16,23 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "@nuxt/eslint": "^1.12.1",
+    "@nuxt/eslint": "^1.14.0",
     "eslint": "^9.39.2",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.3.0",
     "vue": "latest",
-    "vuetify": "^3.11.6"
+    "vuetify": "^3.11.8"
   },
   "devDependencies": {
     "@mdi/font": "^7.4.47",
     "@nuxt/fonts": "^0.12.1",
     "@nuxt/test-utils": "^3.21.0",
     "@vue/test-utils": "^2.4.6",
-    "happy-dom": "^20.0.11",
-    "playwright-core": "^1.57.0",
-    "sass-embedded": "^1.97.1",
+    "happy-dom": "^20.5.0",
+    "playwright-core": "^1.58.2",
+    "sass-embedded": "^1.97.3",
     "typescript": "^5.9.3",
     "vitest": "^3.2.4",
-    "vue-tsc": "^3.2.1",
+    "vue-tsc": "^3.2.4",
     "vuetify-nuxt-module": "^0.19.1"
   }
 }
