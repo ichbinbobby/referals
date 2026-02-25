@@ -1,10 +1,10 @@
 <template>
   <v-card :height="height" elevation="1" @click="open(referal.link)">
-    <v-row no-gutters>
+    <v-row density="compact">
       <v-col>
         <v-img :min-height="128" :min-width="128" :width="imgWidth" :src="referal.img" class="ml-4 mt-4 referal-card-img">
           <template #placeholder>
-            <v-row align="center" class="fill-height ma-0" justify="center">
+            <v-row class="fill-height ma-0 align-center justify-center">
               <v-progress-circular color="grey-lighten-5" indeterminate />
             </v-row>
           </template>
@@ -12,13 +12,13 @@
       </v-col>
 
       <v-col class="mr-4 mt-4 text-right">
-        <v-row no-gutters>
+        <v-row density="compact">
           <v-col>
             <v-chip v-if="referal.category" class="text-capitalize">{{ referal.category }}</v-chip>
           </v-col>
         </v-row>
         
-        <v-row no-gutters>
+        <v-row density="compact">
           <v-col>
             <v-tooltip v-if="referal.sustainable" location="top" text="Nachhaltig">
               <template #activator="{ props }">

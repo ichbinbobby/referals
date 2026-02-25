@@ -2,8 +2,8 @@
   <v-data-iterator :items="referals" :items-per-page="-1" :search="search">
     <template #default="{ items }">
       <v-layout>
-        <!-- The class fill-height applies height: 100% to an element. When applied to v-container it will also set align-items: center -->
-        <v-container fill-height>
+        <!-- fill-height applies height: 100%; d-flex align-center flex-wrap restores vertical centering (v-container no longer does this automatically in Vuetify 4) -->
+        <v-container fill-height class="d-flex align-center flex-wrap">
           <v-row class="flex-wrap pt-4">
             <v-col
               v-for="(item, index) in items"
